@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">flirtodrom</string>
+    <integer name="com_vk_sdk_AppId">5888553</integer>
+    <string name="facebook_app_id">1883038388581464</string>
+
+    <string name="navigation_drawer_open">Открыть навигацию</string>
+    <string name="navigation_drawer_close">Закрыть навигацию</string>
+
+    <string name="action_edit">Редактировать</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_dialogs">Диалоги</string>
+    <string name="title_activity_messages">Сообщения</string>
+    <string name="title_activity_places">Заведения</string>
+    <string name="title_activity_users">Зачекинились</string>
+    <string name="title_activity_profile">Профиль</string>
+    <string name="title_activity_profile_edit">Редактировать профиль</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="help">Помощь</string>
+    <string name="quit">Выйти</string>
+</resources>

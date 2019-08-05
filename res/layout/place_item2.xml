@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/placePicture"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/a" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:alpha="0.3"
+        android:background="#424242" />
+
+    <TextView
+        android:id="@+id/count_check_in"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="8dp"
+        android:paddingTop="2dp"
+        android:textAlignment="center"
+        android:text="Palais Garnier"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:background="@drawable/circle_white" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Palais Garnier"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/placeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:padding="8dp"
+        android:text="Palais Garnier"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/place_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+</RelativeLayout>

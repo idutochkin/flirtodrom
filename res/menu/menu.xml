@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/title_activity_profile" />
+        <item
+            android:id="@+id/nav_list_places"
+            android:icon="@drawable/ic_person_pin_circle_black_24dp"
+            android:title="@string/title_activity_places" />
+        <item
+            android:id="@+id/nav_dialogs"
+            android:icon="@drawable/ic_forum_black_24dp"
+            android:title="@string/title_activity_dialogs" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/title_activity_settings" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/help" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/quit" />
+        </menu>
+    </item>
+
+</menu>
